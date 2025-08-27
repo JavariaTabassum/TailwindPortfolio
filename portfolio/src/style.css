@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Sora", "sans-serif";
+  --breakpoint-320: 320px;
+  --breakpoint-800: 800px;
+  --breakpoint-450: 450px
+}

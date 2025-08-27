@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="font-display">
+  <header>
+    <nav class="flex justify-between m-7 max-[769px]:mx-3 items-center ">
+      <div class="logo text-xl flex items-center gap-2">
+        <img src="./public/images/logo 1.png" alt="">
+        <h5 class="font-bold">Personal</h5>
+      </div>
+      <div class="nav-list text-lg">
+        <ul class="hidden md:flex font-medium gap-10">
+          <li>About Me</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li">Conatct Me</li>
+        </ul>
+      </div>
+      <div class=" hidden md:flex Resume bg-black text-white px-3 py-2 rounded-sm text-lg">
+        Resume
+      </div>
+      <label for="menu-toggle" class="md:hidden text-2xl cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </nav>
+  </header>
+  <section id="AboutMe" class="flex 800:flex-col 320:flex-col-reverse items-center xl:flex-row justify-center mt-[100px] px-4 lg:px-16 max-[800px]:mt-20">
+    <div class="w-full xl:w-1/2">
+    <h2 class="lg:text-5xl md:text-5xl text-3xl max-[450px]:text-[25px] leading-relaxed">Hello I'm <span class="font-extrabold">Javaria Tabassum. MERN</span> <span class="font-extrabold"> Developer </span>based in <span>Pakistan</span>.
+    </h2>
+    <p class="text-sm md:text-base w-[full] mt-7 text-zinc-600">I am a frontend developer with hands-on experience through multiple internships where I worked on building responsive, user-friendly interfaces using modern web technologies. Currently, I am expanding my expertise by working in the MERN stack (MongoDB, Express, React, Node.js), which allows me to develop full-stack applications and strengthen both my frontend and backend skills. I am passionate about writing clean, maintainable code and continuously learning new tools to improve the user experience.</p>
+     <div class="social-links">
+      <ul class="flex gap-10 mt-10 text-3xl">
+        <li><i class="fa-brands fa-linkedin-in"></i></li>
+        <li><i class="fa-brands fa-github"></i></li>
+        <li><i class="fa-solid fa-envelope"></i></li>
+        <li><i class="fa-brands fa-discord"></i></li>
+      </ul>
+    </div>
+    </div>
+    <div class="mt-10 md:w-4/5 md:mb-10 320:mb-10 xl:w-1/2 xl:h-[500px] h-full w-full flex justify-center"><img src="./public/images/Banner.png" alt="" class="max-w-full h-auto "></div>
+  </section>
+</body>
+</html>
