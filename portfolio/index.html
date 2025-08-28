@@ -1,15 +1,19 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
+
 <body class="font-display">
   <header>
     <nav class="flex justify-between m-7 max-[769px]:mx-3 items-center ">
@@ -33,21 +37,110 @@
       </label>
     </nav>
   </header>
-  <section id="AboutMe" class="flex 800:flex-col 320:flex-col-reverse items-center xl:flex-row justify-center mt-[100px] px-4 lg:px-16 max-[800px]:mt-20">
+  <section id="AboutMe"
+    class="flex 800:flex-col 320:flex-col-reverse items-center xl:flex-row justify-center mt-[100px] px-4 lg:px-16 max-[800px]:mt-20">
     <div class="w-full xl:w-1/2">
-    <h2 class="lg:text-5xl md:text-5xl text-3xl max-[450px]:text-[25px] leading-relaxed">Hello I'm <span class="font-extrabold">Javaria Tabassum. MERN</span> <span class="font-extrabold"> Developer </span>based in <span>Pakistan</span>.
-    </h2>
-    <p class="text-sm md:text-base w-[full] mt-7 text-zinc-600">I am a frontend developer with hands-on experience through multiple internships where I worked on building responsive, user-friendly interfaces using modern web technologies. Currently, I am expanding my expertise by working in the MERN stack (MongoDB, Express, React, Node.js), which allows me to develop full-stack applications and strengthen both my frontend and backend skills. I am passionate about writing clean, maintainable code and continuously learning new tools to improve the user experience.</p>
-     <div class="social-links">
-      <ul class="flex gap-10 mt-10 text-3xl">
-        <li><i class="fa-brands fa-linkedin-in"></i></li>
-        <li><i class="fa-brands fa-github"></i></li>
-        <li><i class="fa-solid fa-envelope"></i></li>
-        <li><i class="fa-brands fa-discord"></i></li>
-      </ul>
+      <h2 class="lg:text-5xl md:text-5xl text-3xl max-[450px]:text-[25px] leading-relaxed">Hello I'm <span
+          class="font-extrabold">Javaria Tabassum. MERN</span> <span
+          class="font-extrabold text-white [text-shadow:_3px_3px_0_#000,_-3px_3px_0_#000,_3px_-3px_0_#000,_-3px_-3px_0_#000]">
+          Developer </span>based in <span>Pakistan</span>.
+      </h2>
+      <p class="text-sm md:text-base w-[full] mt-7 text-zinc-600">I am a frontend developer with hands-on experience
+        through multiple internships where I worked on building responsive, user-friendly interfaces using modern web
+        technologies. Currently, I am expanding my expertise by working in the MERN stack (MongoDB, Express, React,
+        Node.js), which allows me to develop full-stack applications and strengthen both my frontend and backend skills.
+        I am passionate about writing clean, maintainable code and continuously learning new tools to improve the user
+        experience.</p>
+      <div class="social-links">
+        <ul class="flex gap-10 mt-10 text-3xl">
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+          <li><i class="fa-solid fa-envelope"></i></li>
+          <li><i class="fa-brands fa-discord"></i></li>
+        </ul>
+      </div>
     </div>
+    <div class="mt-10 md:w-4/5 md:mb-10 320:mb-10 xl:w-1/2 xl:h-[500px] h-full w-full flex justify-center"><img
+        src="./public/images/Banner.png" alt="" class="max-w-full h-auto "></div>
+  </section>
+  <section id="Skills" class=" flex flex-col justify-center items-center mt-10 gap-20 mb-10">
+    <h1 class="text-5xl max-[375px]:text-4xl max-[800px]:mt-10">My <span class="font-extrabold">Skills</span></h1>
+    <div class="Skills-sec grid lg:grid-cols-3 sm:grid-cols-2  gap-x-45 gap-y-9 ">
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-git-alt text-6xl"></i>
+        <h1 class="text-3xl">Git</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-html5 text-6xl"></i>
+        <h1 class="text-3xl">Html 5</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-css3 text-6xl"></i>
+        <h1 class="text-3xl">CSS 3</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-bootstrap text-6xl"></i>
+        <h1 class="text-3xl">Bootstrap</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-js text-6xl"></i>
+        <h1 class="text-3xl">Javascript</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm">
+        <i class="fa-brands fa-react text-6xl"></i>
+        <h1 class="text-3xl">React.js</h1>
+      </div>
     </div>
-    <div class="mt-10 md:w-4/5 md:mb-10 320:mb-10 xl:w-1/2 xl:h-[500px] h-full w-full flex justify-center"><img src="./public/images/Banner.png" alt="" class="max-w-full h-auto "></div>
+  </section>
+  <section id="Experience" class="bg-black flex flex-col justify-center items-center p-10 max-[440px]:p-5 gap-10">
+    <h1 class="text-white text-5xl max-[475px]:text-4xl max-[375px]:text-3xl ">My <span
+        class="font-extrabold">Experience</span></h1>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="./public/images/bytwise.png" alt="" class="h-[100px]">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend Intern at Bytewise
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">June2024 - August2024</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">Last year, I completed an internship in
+        Frontend Development at Bytwise, where I worked on developing responsive and visually appealing web interfaces.
+        I gained practical experience with multiple frontend technologies which helped me build clean, efficient, and
+        user-friendly designs. This internship helped me strengthen my problem-solving skills, improve my understanding
+        of real-world development practices, and collaborate effectively within a professional team environment.</p>
+    </div>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="./public/images/bytwise.png" alt="" class="h-[100px]">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend Intern at Bytewise
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">June2024 - August2024</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">Last year, I completed an internship in
+        Frontend Development at Bytwise, where I worked on developing responsive and visually appealing web interfaces.
+        I gained practical experience with multiple frontend technologies which helped me build clean, efficient, and
+        user-friendly designs. This internship helped me strengthen my problem-solving skills, improve my understanding
+        of real-world development practices, and collaborate effectively within a professional team environment.</p>
+    </div>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="./public/images/bytwise.png" alt="" class="h-[100px]">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend Intern at Bytewise
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">June2024 - August2024</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">Last year, I completed an internship in
+        Frontend Development at Bytwise, where I worked on developing responsive and visually appealing web interfaces.
+        I gained practical experience with multiple frontend technologies which helped me build clean, efficient, and
+        user-friendly designs. This internship helped me strengthen my problem-solving skills, improve my understanding
+        of real-world development practices, and collaborate effectively within a professional team environment.</p>
+    </div>
   </section>
 </body>
+
 </html>
