@@ -1,0 +1,256 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" crossorigin href="/TailwindPortfolio/assets/index-By7UOib-.css">
+</head>
+<style>
+  .animate{
+    animation-timeline: view();
+    animation-range: entry 0;
+  }
+  .delay{
+    animation-delay: 2s;
+  }
+</style>
+
+<body class="font-display">
+  <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav class="flex justify-between m-4 max-[769px]:mx-3 items-center ">
+      <div class="logo text-xl flex items-center gap-2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGESURBVHgB7ZjLcYMwEIb/PA45UoLSQUogHSQdkA7cAUkHTgUhHcQdOBXEHUAHzjUnZ3eAGQYDWqSVOJhv5h8/ZpF+PVg9gBU/rqCDIT2QkuZ3RTqQfrEgbCYnlaTTiH5IGRZgQzpi3FhfZUyjH5Ab6ytHYHzMBTeZw99cqw2UMdAzx+L5m0gqvoGMLeo0osUd6Y+0hwLc0lMAHSWVXwtiUsyDk/MX6dsSxw1XGZVXuPVQinrulhMxma1ySQ8auJGjXvLuSZ+uZUsMShhac7tvKaeVCg5oGdwN/Nedg9yAl4EYlc1EAft8S3pxxUhZVe+5J0Qy2JJgOgEXOG/YJLfQxTZkVef7ThCvNgdd2EqCYhtsE3MBpWWuLUw6B22UjYz0gZg9mDWfj5iRE2MZNKiXvlnmGO23eAwDxzNJrB7cw5El04yI1aAvF2HwgIBchME3BMTX4Dsct/KaFBjeIPDVmuh2wAfXHuRzL6+rwS8o5xrkgxAbe8bCt6ddUtSHm+DDuRKCf0YG17I9Qj0WAAAAAElFTkSuQmCC" alt="">
+        <h5 class="font-bold">Personal</h5>
+      </div>
+      <div class="nav-list text-lg sticky">
+        <ul class="hidden md:flex font-medium gap-10">
+          <a href="#AboutMe"><li>About Me</li></a>
+          <a href="#Skills"><li>Skills</li></a>
+          <a href="#Projects"><li>Projects</li></a>
+          <a href="#Contact"><li>Conatct Me</li></a>
+        </ul>
+      </div>
+      <div class=" hidden md:flex Resume bg-black text-white px-3 py-2 rounded-sm text-lg">
+        Resume
+      </div>
+       <input type="checkbox" id="menu-toggle" class="hidden peer">
+      <label for="menu-toggle" class="md:hidden text-2xl cursor-pointer z-50 relative">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <div class="fixed inset-0 bg-black/50 opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto transition-opacity duration-300 z-30"></div>
+      <div class="fixed top-0 right-0 h-full w-64 bg-white  transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 md:hidden z-40">
+      <div class="flex flex-col p-6 gap-6 font-medium text-lg">
+        <a href="#AboutMe">About Me</a>
+        <a href="#Skills" >Skills</a>
+        <a href="#Projects" >Projects</a>
+        <a href="#Contact" >Contact Me</a>
+        <a href="#" class="bg-black text-white px-3 py-2 rounded-sm text-center">Resume</a>
+      </div>
+    </div>
+    </nav>
+  </header>
+  <section id="AboutMe"
+    class="flex 800:flex-col 320:flex-col-reverse items-center xl:flex-row justify-center mt-[150px] px-4 lg:px-16 max-[800px]:mt-20 animate-fadeout">
+    <div class="w-full xl:w-1/2">
+      <h2 class="lg:text-5xl md:text-5xl text-3xl max-[450px]:text-[25px] leading-relaxed">Hello I'm <span
+          class="font-extrabold">Javaria Tabassum. MERN</span> <span
+          class="font-extrabold text-white [text-shadow:_3px_3px_0_#000,_-3px_3px_0_#000,_3px_-3px_0_#000,_-3px_-3px_0_#000]">
+          Developer </span>based in <span>Pakistan</span>.
+      </h2>
+      <p class="text-sm md:text-base w-[full] mt-7 text-zinc-600">I am a frontend developer with hands-on experience
+        through multiple internships where I worked on building responsive, user-friendly interfaces using modern web
+        technologies. Currently, I am expanding my expertise by working in the MERN stack (MongoDB, Express, React,
+        Node.js), which allows me to develop full-stack applications and strengthen both my frontend and backend skills.
+        I am passionate about writing clean, maintainable code and continuously learning new tools to improve the user
+        experience.</p>
+      <div class="social-links">
+        <ul class="flex gap-10 mt-10 text-3xl">
+          <li class="hover:animate-bounceUp "><a href="https://www.linkedin.com/in/javaria-tabassum-0aa8a2252" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li class="hover:animate-bounceUp"><a href="https://mail.google.com/mail/?view=cm&to=javariatabassum725@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+          <li class="hover:animate-bounceUp"><a href="https://github.com/JavariaTabassum" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li class="hover:animate-bounceUp"><a href="https://discord.com/users/1405505476430401657" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-10 md:w-4/5 md:mb-10 320:mb-10 xl:w-1/2 xl:h-[500px] h-full w-full flex justify-center"><img
+        src="/TailwindPortfolio/assets/Banner-DbDQZyAF.png" alt="" class="max-w-full h-auto "></div>
+  </section>
+  <section id="Skills" class=" flex flex-col justify-center items-center mt-10 gap-20 mb-10 ">
+    <h1 class="text-5xl max-[375px]:text-4xl max-[800px]:mt-10 animate-fadeout2 animate">My <span class="font-extrabold">Skills</span></h1>
+    <div class="Skills-sec grid lg:grid-cols-3 sm:grid-cols-2  gap-x-45 gap-y-9 ">
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate ">
+        <i class="fa-brands fa-git-alt text-6xl"></i>
+        <h1 class="text-3xl">Git</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate">
+        <i class="fa-brands fa-html5 text-6xl"></i>
+        <h1 class="text-3xl">Html 5</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate">
+        <i class="fa-brands fa-css3 text-6xl"></i>
+        <h1 class="text-3xl">CSS 3</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate">
+        <i class="fa-brands fa-bootstrap text-6xl"></i>
+        <h1 class="text-3xl">Bootstrap</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate">
+        <i class="fa-brands fa-js text-6xl"></i>
+        <h1 class="text-3xl">Javascript</h1>
+      </div>
+      <div class="flex flex-col items-center gap-5 border-3 border-black px-4 py-5 rounded-sm animate-fadeout2 animate">
+        <i class="fa-brands fa-react text-6xl"></i>
+        <h1 class="text-3xl">React.js</h1>
+      </div>
+    </div>
+  </section>
+  <section id="Experience" class="bg-black flex flex-col justify-center mt-20 items-center p-10 max-[440px]:p-5 gap-10 ">
+    <h1 class="text-white text-5xl max-[475px]:text-4xl max-[375px]:text-3xl animate-fadeout2 animate ">My <span
+        class="font-extrabold">Experience</span></h1>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full animate-fadeout2 animate">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="/TailwindPortfolio/assets/bytwise-wA0HWHig.png" alt="" class="h-[100px]">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend Fellow at Bytewise
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">June2023 - August2023</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">I completed a Fellowship in Frontend Development at Bytwise, where I worked on developing responsive and visually appealing web interfaces. I gained practical experience with multiple frontend technologies which helped me build clean, efficient, and user-friendly designs. This internship helped me strengthen my problem-solving skills, improve my understanding of real-world development practices, and collaborate effectively within a professional team environment.</p>
+    </div>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full animate-fadeout2 animate">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="/TailwindPortfolio/assets/innovaronix-BaRT7jDi.png" alt="" class="h-[100px]">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend intern at Innovaronix
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">Feb2024 - April2024</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">Last year, I completed an internship in Frontend Development at innovaronix, where I worked on developing responsive and visually appealing web interfaces. I gained practical experience with multiple frontend technologies which helped me build clean, efficient, and user-friendly designs. This internship helped me strengthen my problem-solving skills, improve my understanding of real-world development practices, and collaborate effectively within a professional team environment.</p>
+    </div>
+    <div class="text-white border border-zinc-400 rounded-md max-[495px]:px-5 max-[475px]:px-3 px-8 pb-6 w-full animate-fadeout2 animate">
+      <div class="flex flex-col lg:flex-row lg:justify-between mb-6 lg:items-center">
+        <div class="flex items-center gap-5">
+          <img src="/TailwindPortfolio/assets/Buildables-C-C-85tz.png" alt="" class="h-[70px] mt-5">
+          <h1 class="font-bold text-2xl max-[395px]:text-[20px] max-[350px]:text-[15px]">Frontend Fellow at Buldables
+          </h1>
+        </div>
+        <p class="font-medium text-zinc-300">August2025 - Present</p>
+      </div>
+      <p class="text-zinc-300 max-[375px]:text-justify max-[395px]:text-sm">
+        I am currently pursuing a Fellowship at Buildables, where I am working on real-world projects using the MERN stack (MongoDB, Express.js, React.js, Node.js). The fellowship focuses on strengthening my skills in full-stack web development, including building scalable backends, designing responsive frontends, integrating APIs, and managing databases. This hands-on experience is helping me gain practical industry knowledge, improve problem-solving abilities, and collaborate effectively in a professional development environment.
+      </p>
+    </div>
+  </section>
+  <section id="Projects" class="flex flex-col justify-center items-center mt-20 gap-10 ">
+    <h1 class="text-5xl max-[475px]:text-4xl max-[375px]:text-3xl animate-fadeout2 animate">My <span class="font-extrabold">Projects</span></h1>
+    <div class="px-15 py-10 flex flex-col gap-20 max-[595px]:px-4">
+      <div class="flex gap-15 justify-center items-center w-full max-[1065px]:flex-col animate-fadeout2 animate">
+        <div class="w-1/2 max-[1065px]:w-full">
+          <img src="/TailwindPortfolio/assets/BeeComfort-Ce-GP0kh.png" alt="" class="h-[350px] w-full rounded-lg">
+        </div>
+        <div class="flex flex-col gap-7 w-1/2 max-[1065px]:w-full">
+          <h1 class="font-bold text-4xl">01</h1>
+          <h2 class="font-bold text-2xl">Admin Dashboard For Bee Comfort</h2>
+          <div class="flex flex-col gap-7">
+          <p>The Fitness Training Website is a modern, responsive platform built with React.js and Tailwind CSS,
+            designed to help users achieve their health and fitness goals. It provides workout plans, diet
+            recommendations, and progress tracking features in a clean and user-friendly interface. The website focuses
+            on delivering an engaging experience with easy navigation, mobile responsiveness, and visually appealing
+            layouts, making fitness guidance accessible anytime, anywhere.
+          </p>
+          <a href="https://super-admin-kohl.vercel.app" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square cursor-pointer"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row-reverse gap-15 justify-center items-center w-full max-[1065px]:flex-col animate-fadeout2 animate">
+        <div class="w-1/2 max-[1065px]:w-full ">
+          <img src="/TailwindPortfolio/assets/ShinePoint-m1uMNioB.png" alt="" class="h-[350px] w-full rounded-lg ">
+        </div>
+        <div class="flex flex-col gap-7 w-1/2 max-[1065px]:w-full">
+          <h1 class="font-bold text-4xl">02</h1>
+          <h2 class="font-bold text-2xl">Admin Dashboard For Shine Point</h2>
+          <div class="flex flex-col gap-7">
+          <p>The Fitness Training Website is a modern, responsive platform built with React.js and Tailwind CSS,
+            designed to help users achieve their health and fitness goals. It provides workout plans, diet
+            recommendations, and progress tracking features in a clean and user-friendly interface. The website focuses
+            on delivering an engaging experience with easy navigation, mobile responsiveness, and visually appealing
+            layouts, making fitness guidance accessible anytime, anywhere.
+          </p>
+          <a href="https://shinpointadmin.vercel.app" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square cursor-pointer"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-15 justify-center items-center w-full max-[1065px]:flex-col animate-fadeout2 animate">
+        <div class="w-1/2 max-[1065px]:w-full">
+          <img src="/TailwindPortfolio/assets/Fitness-D0dArwdR.png" alt="" class="h-[350px] w-full rounded-lg ">
+        </div>
+        <div class="flex flex-col gap-7 w-1/2 max-[1065px]:w-full">
+          <h1 class="font-bold text-4xl">03</h1>
+          <h2 class="font-bold text-2xl">Frontend for Fitness Training Website</h2>
+          <div class="flex flex-col gap-7">
+          <p>The Fitness Training Website is a modern, responsive platform built with React.js and Tailwind CSS,
+            designed to help users achieve their health and fitness goals. It provides workout plans, diet
+            recommendations, and progress tracking features in a clean and user-friendly interface. The website focuses
+            on delivering an engaging experience with easy navigation, mobile responsiveness, and visually appealing
+            layouts, making fitness guidance accessible anytime, anywhere.
+          </p>
+          <a href="https://fitness-kappa-three.vercel.app" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square cursor-pointer"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Contact" class="flex flex-col lg:flex-row items-center justify-center py-10 xl:px-30 px-10 max-[450px]:px-5 w-full xl:gap-x-20 mt-20 gap-10 max-[1190px]:px-7 ">
+      <form action="" class="lg:w-1/2 w-full animate-fadeout2 animate">
+        <div class="flex flex-col gap-6">
+        <input type="text" id="name" placeholder="Your name" class="border-2 border-black px-5 py-3 rounded-sm">
+        <input type="email" id="email" placeholder="Your email" class="border-2 border-black px-5 py-3 rounded-sm">
+        <input type="text" id="website" placeholder="Your Website (if exists)" class="border-2 border-black px-5 py-3 rounded-sm">
+        <textarea id="message" rows="4" placeholder="How can I help?" class="border-2 border-black px-5 py-3 rounded-sm"></textarea>
+        <div class="social-links ">
+        <ul class="flex flex-wrap gap-4 sm:gap-6  items-center ">
+          <button type="button" class="font-medium text-base sm:text-lg text-white bg-black px-5 sm:px-7 py-3 sm:py-4  rounded-md">Get in Touch</button>
+          <li class="hover:animate-bounceUp text-xl sm:text-2xl border-3 border-black px-4 sm:px-5 py-2 sm:py-3 rounded-sm"><a href="https://www.linkedin.com/in/javaria-tabassum-0aa8a2252" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li class="hover:animate-bounceUp text-xl sm:text-2xl border-3 border-black px-4 sm:px-5 py-2 sm:py-3 rounded-sm"><a href="https://mail.google.com/mail/?view=cm&to=javariatabassum725@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+          <li class="hover:animate-bounceUp text-xl sm:text-2xl border-3 border-black px-4 sm:px-5 py-2 sm:py-3 rounded-sm"><a href="https://github.com/JavariaTabassum" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li class="hover:animate-bounceUp text-xl sm:text-2xl border-3 border-black px-4 sm:px-5 py-2 sm:py-3 rounded-sm"><a href="https://discord.com/users/1405505476430401657" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+      </div>
+        </div>
+      </form>
+      <div class="w-full lg:w-1/2 flex flex-col lg:mb-20 animate-fadeout2 animate">
+        <div class="mb-10 flex flex-col gap-7">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-normal ">Let's <span class="font-extrabold text-white [text-shadow:_3px_3px_0_#000,_-3px_3px_0_#000,_3px_-3px_0_#000,_-3px_-3px_0_#000]">talk</span> for <br>Something special</h1>
+        <p class="text-zinc-500 text-xl ">I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+        </div>
+        <p class="font-bold text-md sm:text-2xl lg:text-3xl text-wrap">javariatabassum725@gmail.com</p>
+      </div>
+  </section>
+  <footer class="bg-black py-5 px-5 flex justify-between items-center mt-10">
+    <div class="logo text-xl flex items-center gap-2 text-white">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAkCAYAAACTz/ouAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFxSURBVHgB7ZbtUcMwDIaVHAN0A7wB6QbJBIQJWjZgA2ACYAI6QjZomKDdIN6AbiCkxOFM6xAZK/947tTk/KFXtmylABEgoiFbgRbkrCR7JTvgJQfXZyAWF+ke5byLhWjghuwT4+nI6jnnj5jOZsp5jTrw6ovQnneoRzf6zt2Tl2VADw5466+gQ332o/Mybl6/x61wrOEtKiAOvsnXZBXZM9npl7ElCxiIx5A9ZFn2RM81mZ0al7uI5ghFecM/JGJhWE1wJTnIOAba2vHFibwFZ1IidoJkFfjzpPG7OfOzwssSU4sEnAM+23zbtzhRsgO+zBUIcdtgZ4b5/UeeI83BX+hzoi0wbp2l6HdLCNy6ZzU2qAlQQksYLuC9y1ePOMkCXsgqct76jSoCOHwq7/zIVQXIcTPVt+Qx/RfQEzhBAhKBD0hAItBAAnMC30VrCQELXtHSFrAw1BULCwjwh2Kt4ZzhWtTCcBT5n0NDjpOO5Tlfn/r8WdxFk7IAAAAASUVORK5CYII=" alt="">
+        <h5 class="font-bold">Personal</h5>
+      </div>
+      <div class="text-white font-bold">
+        <p>Javaria Tabassum</p>
+      </div>
+  </footer>
+</body>
+
+</html>
