@@ -4,5 +4,55 @@
   --font-display: "Sora", "sans-serif";
   --breakpoint-320: 320px;
   --breakpoint-800: 800px;
-  --breakpoint-450: 450px
+  --breakpoint-450: 450px;
+  --animate-fadeout: fadeout 2s ease-in-out forwards;  
+  --animate-fadeout2: fadeout2 3s ease-in-out forwards;
+  --animate-bounceUp: bounceUp 1s ease-out forwards;
 }
+
+@keyframes fadeout{
+           0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            70% {
+                transform: translateY(-1px);
+            }
+            80% {
+                transform: translateY(1px);  
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);     /* Final position */
+            }
+}
+@keyframes fadeout2{
+           0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            70% {
+                transform: translateY(-1px);
+            }
+            80% {
+                transform: translateY(1px);  
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);     /* Final position */
+            }
+}
+
+@keyframes bounceUp {
+    0%   { 
+           transform: translateY(0); 
+         }
+    50%  { 
+           transform: translateY(-7px); 
+         }
+    100% { 
+           transform: translateY(-3px); 
+         }  
+}
+
+
